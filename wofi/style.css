@@ -1,0 +1,28 @@
+window {
+	border: 1px solid;
+	border-radius: 5px;
+	color: --wofi-color0;
+	background-color: --wofi-color1;
+}
+
+#text {
+	font-family: Terminess Nerd Font;
+}
+
+#input {
+	font-family: Terminess Nerd Font;
+	color: --wofi-color0;
+	background-color: --wofi-color3;
+}
+
+#input:focus {
+	border: 1px solid --wofi-color0;
+	box-shadow: none;
+}
+
+
+#entry:selected {
+	border-color: --wofi-color6;
+	background-color: --wofi-color3;
+	border-radius: 5px;
+}
