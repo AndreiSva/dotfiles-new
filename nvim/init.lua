@@ -25,6 +25,10 @@ require("lazy").setup({
 	},
 
 	{
+		'andweeb/presence.nvim',
+	},
+
+	{
 		"CopilotC-Nvim/CopilotChat.nvim",
 		branch = "canary",
 		dependencies = {
