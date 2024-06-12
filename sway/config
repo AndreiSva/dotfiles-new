@@ -105,7 +105,7 @@ exec swayidle -w \
     bindsym $mod+d exec $menu
 
 	# Take a screenshot using grimshot
-	bindsym $mod+Shift+s exec grimshot copy area
+	bindsym $mod+Shift+s exec grim -g "$(slurp)" /dev/stdout | wl-copy
 
 	# Start some common programs
 	bindsym $mod+Shift+f exec $browser
